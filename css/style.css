@@ -1,0 +1,312 @@
+html, body{
+    font-size: 12px;
+    font-family: 'Roboto Condensed','bold' sans-serif;
+    color: #000000;
+    background: #f5f5f5;
+}
+
+ul{
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none !important;
+}
+.widget{
+    text-align: center;
+}
+header{
+    background: #444444;
+    height: 40px;
+}
+header a{
+    line-height: 40px;
+    font-size: 11px;
+}
+#top-links li a{
+    color: #878787;
+}
+#top-links li:hover a{
+    color: #F32828;
+}
+#top-links li:last-child{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+    border-left: 1px solid #ffffff;
+}
+#top-links li:nth-child(3){
+    padding-left: 25px;
+    background: url("../images/icons/icon_change_product.png") no-repeat left;
+    background-size: auto 80%;
+}
+#top-links li:nth-child(3):hover{
+    background: url("../images/icons/chage.png") no-repeat left;
+}
+
+#top-links li:nth-child(2){
+    padding-left: 17px;
+    background: url("../images/icons/icon_check_out.png") no-repeat left;
+    background-size: auto 80%;
+}
+#top-links li:nth-child(2):hover{
+    background: url("../images/icons/icon_check_out_2.png") no-repeat left;
+}
+#top-links li:first-child{
+    padding-left: 52px;
+    background: url("../images/icons/icon_free_shipping.png") no-repeat left;
+    background-size: auto 80%;
+}
+#top-links li:first-child:hover{
+    background: url("../images/icons/icon_free_shipping_2.png") no-repeat left;
+}
+
+#menu li a{
+    color: #ffffff;
+    padding: 0 5px;
+}
+
+#menu a span:first-child{
+    color: #878787;
+    padding-right: 5px;
+}
+#menu li:last-child{
+    background: #ff0000;
+    padding: 0 12px;
+}
+#menu li:last-child a span{
+    font-size: 16px;
+    color: #ffffff !important;
+}
+#menu li:hover{
+    background: rgba(255, 255, 255, 0.1);
+}
+#search-box{
+    border-top:1px solid #BFBFBF;
+    border-bottom: 1px solid #BFBFBF;
+    display: inline-block;
+}
+#search-box input{
+    border: none;
+    padding: 3px 10px;
+    color: #000000;
+}
+#search-box button{
+    border: none;
+    background: #ff0000;
+    color: #ffffff;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+
+section{
+    background: #f5f5f5;
+}
+#breadcrumb{
+    color: #878787;
+    margin: 15px 15px;
+    font-weight: bold;
+}
+#breadcrumb a{
+    color: #878787;
+    font-weight: bold;
+}
+.box{
+    background: #ffffff;
+    box-shadow: 0 0 2px 2px #eeeeee;
+}
+#sidebar{
+    padding: 20px;
+}
+#sidebar > ul li{
+
+}
+#sidebar > ul > li > a{
+    padding-left: 35px;
+    margin-bottom: 15px;
+    background: url("../images/icons/li_icon.png") no-repeat left;
+    background-size: auto 100%;
+    display: block;
+}
+#sidebar li a{
+    color: #888888;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.dropdown-li > a {
+    background: url("../images/icons/li_drop.png") no-repeat left !important;
+    background-size: auto 100%;
+}
+
+#sidebar .active > a{
+    background: url("../images/icons/li-active.png") no-repeat left !important;
+    background-size: auto 100%;
+}
+
+.sub_li{
+    display: none;
+}
+.sub_li li{
+    padding: 5px 0 5px 30px;
+}
+.sub_li li:hover{
+    background: #f5f5f5;
+}
+.dropdown-li:hover .sub_li{
+    display: block;
+}
+#sidebar li ul li a{
+    font-size: 12px;
+}
+#content{
+    padding: 10px;
+    overflow: hidden;
+}
+#title-article h1{
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    padding:15px 10px;
+    margin: 0 !important;
+    border-bottom: 1px solid #eeeeee;
+}
+#content-article{
+    padding: 10px;
+}
+#content-article img{
+    border: 1px solid #dddddd;
+    padding: 1px;
+    margin-bottom: 10px;
+}
+#content-article img:last-child{
+    margin-bottom: 0;
+}
+#newsletter {
+    padding: 15px 0;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#newsletter h3{
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0;
+}
+#reg-email{
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    width: 290px;
+
+}
+#reg-email input{
+    border: none;
+    padding: 5px 10px;
+}
+#reg-email button{
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 0 3px 3px 0 ;
+    background: #ff0000;
+    float: right;
+}
+.notice-e{
+    padding-left: 70px;
+    background: url("../images/icons/emaill.png") no-repeat left;
+    background-size: auto 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#social{
+    position: relative;
+    clear: both;
+}
+#follow-us{
+    color: #ffffff;
+
+    font-size: 14px;
+    padding: 5px 12px;
+    text-align: center;
+    background: #ff0000;
+
+}
+footer{
+    background: #f5f5f5;
+    margin-bottom: 40px ;
+    color: #888888 !important;
+    font-weight: bold;
+}
+.footer-box a{
+    color: #888888;
+}
+.footer-box{
+    padding: 20px 10px;
+}
+footer .box{
+    padding: 10px;
+}
+.tittle-box{
+    font-size:17px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    border-bottom: 1px solid #bfbfbf;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.content-box li{
+    padding: 9px 0;
+    border-bottom: 1px dashed #dddddd;
+}
+.content-box li:last-child{
+    border-bottom: none;
+}
+#bottom-menu{
+    overflow: hidden;
+}
+.copyright{
+    padding: 20px 0 10px;
+
+    clear: both;
+    overflow: hidden;
+    border-top: 1px solid #dddddd;
+    margin: 0 10px;
+}
+/*------------------- Login ---------------------------*/
+.tittle{
+    color: #6c6d71;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+.inside{
+    color: #6c6d71;
+    padding: 15px 0;
+}
+.btun{
+    border: none;
+    padding: 5px 15px;
+    color: #ffffff;
+    background: #ff0000;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    clear: both;
+}
+.required{
+    color: #ff0000;
+}
+.inside input{
+    width: 100%;
+    background: #f3f3f3;
+    padding: 5px 10px;
+    border: 1px solid #dddddd;
+    margin-bottom: 10px;
+}
+/*------------------- End Login ---------------------------*/
+
+

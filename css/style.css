@@ -1,8 +1,16 @@
 html, body{
     font-size: 12px;
-    font-family: 'Roboto Condensed','bold' sans-serif;
+    font-family: 'Roboto Condensed Bold' sans-serif;
     color: #000000;
     background: #f5f5f5;
+}
+@font-face {
+    font-family: "Roboto Condensed Bold";
+    src: url(../fonts/RobotoCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url(../fonts/RobotoCondensed-Regular.ttf);
 }
 
 ul{
@@ -30,6 +38,7 @@ header a{
 }
 #top-links li:last-child{
     color: #ffffff;
+    font-family: "Roboto Condensed Bold";
     font-weight: bold;
     font-size: 12px;
     font-style: italic;
@@ -105,11 +114,9 @@ section{
 #breadcrumb{
     color: #878787;
     margin: 15px 15px;
-    font-weight: bold;
 }
 #breadcrumb a{
     color: #878787;
-    font-weight: bold;
 }
 .box{
     background: #ffffff;
@@ -131,7 +138,6 @@ section{
 #sidebar li a{
     color: #888888;
     font-size: 14px;
-    font-weight: bold;
     text-transform: uppercase;
 }
 .dropdown-li > a {
@@ -166,7 +172,6 @@ section{
 #title-article h1{
     text-transform: uppercase;
     font-size: 17px;
-    font-weight: bold;
     padding:15px 10px;
     margin: 0 !important;
     border-bottom: 1px solid #eeeeee;
@@ -190,7 +195,6 @@ section{
 }
 #newsletter h3{
     font-size: 17px;
-    font-weight: bold;
     margin: 0;
 }
 #reg-email{
@@ -224,7 +228,7 @@ section{
 }
 #follow-us{
     color: #ffffff;
-
+    font-family: "Roboto Condensed Bold", sans-serif;
     font-size: 14px;
     padding: 5px 12px;
     text-align: center;
@@ -235,7 +239,6 @@ footer{
     background: #f5f5f5;
     margin-bottom: 40px ;
     color: #888888 !important;
-    font-weight: bold;
 }
 .footer-box a{
     color: #888888;
@@ -248,7 +251,6 @@ footer .box{
 }
 .tittle-box{
     font-size:17px;
-    font-weight: bold;
     color: #000;
     text-transform: uppercase;
     border-bottom: 1px solid #bfbfbf;
@@ -276,7 +278,6 @@ footer .box{
 /*------------------- Login ---------------------------*/
 .tittle{
     color: #6c6d71;
-    font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
     padding: 10px 0;
@@ -291,7 +292,6 @@ footer .box{
     padding: 5px 15px;
     color: #ffffff;
     background: #ff0000;
-    font-weight: bold;
     font-size: 14px;
     margin-top: 15px;
     margin-bottom: 15px;

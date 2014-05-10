@@ -44,6 +44,7 @@ header a{
     font-size: 12px;
     font-style: italic;
     border-left: 1px solid #ffffff;
+    padding-left: 10px;
 }
 #top-links li:nth-child(3){
     padding-left: 25px;
@@ -333,3 +334,62 @@ footer .box{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+#reges{
+    border: 1px solid #dddddd;
+    height: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#reges p{
+    font-family: Roboto Condensed;
+}
+#reges p:first-child{
+    font-size: 18px;
+    font-family: Roboto Condensed;
+    color: #41BA7C;
+}
+#reges span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#reges a, #info-pagket a{
+    padding: 10px 25px;
+    background: #41BA7C;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    display: inline-block;
+    margin-top: 30px;
+}
+#info-pagket{
+    border: 1px solid #dddddd;
+    height: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Roboto Condensed";
+}
+#info-pagket p:first-child{
+    font-size: 18px;
+    font-family: "Roboto Condensed Bold";
+    color: #41BA7C;
+}
+#method img{
+    width: 100%;
+}
+#method span{
+    font-size: 24px;
+    font-family: "Roboto Condensed";
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    clear: both;
+}
+
+

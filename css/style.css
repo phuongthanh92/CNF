@@ -29,6 +29,7 @@ header{
 header a{
     line-height: 40px;
     font-size: 11px;
+    font-family: Roboto Condensed;
 }
 #top-links li a{
     color: #878787;
@@ -77,7 +78,7 @@ header a{
 
 #menu a span:first-child{
     color: #878787;
-    padding-right: 5px;
+    padding-right: 10px;
 }
 #menu li:last-child{
     background: #ff0000;
@@ -99,6 +100,7 @@ header a{
     border: none;
     padding: 3px 10px;
     color: #000000;
+    font-family: "Roboto Condensed";
 }
 #search-box button{
     border: none;
@@ -178,6 +180,8 @@ section{
 }
 #content-article{
     padding: 10px;
+    font-family: Roboto Condensed;
+    font-size: 13px;
 }
 #content-article img{
     border: 1px solid #dddddd;
@@ -201,11 +205,13 @@ section{
     border: 1px solid #dddddd;
     border-radius: 3px;
     width: 290px;
-
+    margin: 17px 0;
 }
 #reg-email input{
     border: none;
     padding: 5px 10px;
+    width: 249px;
+    font-family: "Roboto Condensed";
 }
 #reg-email button{
     color: #ffffff;
@@ -222,18 +228,26 @@ section{
     padding-bottom: 10px;
     padding-top: 10px;
 }
+.notice-e p{
+    color: #888888;
+    font-family: "Roboto Condensed";
+    font-size: 11px;
+    margin-top: 5px;
+}
 #social{
     position: relative;
     clear: both;
+}
+#social .widget{
+    margin: 17px 0;
 }
 #follow-us{
     color: #ffffff;
     font-family: "Roboto Condensed Bold", sans-serif;
     font-size: 14px;
-    padding: 5px 12px;
+    padding: 5px 17px;
     text-align: center;
     background: #ff0000;
-
 }
 footer{
     background: #f5f5f5;
@@ -242,6 +256,7 @@ footer{
 }
 .footer-box a{
     color: #888888;
+    font-family: "Roboto Condensed";
 }
 .footer-box{
     padding: 20px 10px;
@@ -307,6 +322,14 @@ footer .box{
     border: 1px solid #dddddd;
     margin-bottom: 10px;
 }
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
 /*------------------- End Login ---------------------------*/
 
-
+#carousel{
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

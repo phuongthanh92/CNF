@@ -391,5 +391,25 @@ footer .box{
     margin-top: 10px;
     clear: both;
 }
+.validation-advice{
+    clear: both;
+    min-height: 13px;
+    margin: -5px 0 5px 0;
+    padding-left: 0;
+    font-size: 10px;
+    line-height: 13px;
+    color: #f00;
+}
+.validate-failed{
+    border: 1px dashed #f00 !important;
+    background: #faebe7 !important;
+}
+#features{
+    overflow: hidden;
+    padding: 0 15px 15px 15px;
+}
+.featureBox{
+    margin-top: 15px;
+}
 
 

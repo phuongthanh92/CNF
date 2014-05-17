@@ -162,18 +162,50 @@
                         <a href="#"><img src="images/icons/login_fb_h.png"/></a>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-8">
                     <div class="content-box">
                         <div class="tittle">
                             Các khách hàng mới
                         </div>
                         <div class="inside" >
-                            <p>Tạo tài khoản trên website, bạn có thể mua hàng và thanh toán nhanh hơn, sử dụng nhiều địa chỉ nhận hàng, xem và theo dõi đơn hàng trong tài khoản và nhiều hơn thế nữa.</p>
-                            <button type="button" class="btun" title="Đăng ký tài khoản mới" onclick="window.location='intro.html';">Tạo tài khoản</button>
+                            <p>Tạo mới một tài khoản tại đây</p>
+                            <form action="" method="post">
+                                <fieldset>
+                                    <legend>Thông tin cá nhân</legend>
+                                    <div class="col-md-6">
+                                        <label for="fName">Họ <span class="required">*</span> </label>
+                                        <input type="text" title="Họ" id="fName"/>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="lName">Tên <span class="required">*</span></label>
+                                        <input type="text" id="lName"/>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="newEmail">Email <span class="required">*</span></label>
+                                        <input type="email" title="Email" id="newEmail" class="validate-failed"/>
+                                        <div class="validation-advice">Trường này bắt buộc phải điển</div>
+                                        <input type="checkbox"/>Đăng ký nhận tin
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Thông tin đăng nhập</legend>
+                                    <div class="col-md-6">
+                                        <label for="password">Mật khẩu <span class="required">*</span></label>
+                                        <input type="password" id="password"/>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="cPass">Mật khẩu <span class="required">*</span></label>
+                                        <input type="password" id="cPass"/>
+                                    </div>
+
+                                </fieldset>
+                                <span class="required ">* Các trường bắt buộc</span><br/>
+                                <button type="submit" class="btun pull-right" title="Đăng nhập">Chấp nhận</button>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="content-box">
                         <div class="tittle">
                             Các khách hàng đã đăng ký tài khoản
